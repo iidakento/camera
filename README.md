@@ -30,3 +30,5 @@ public class camera : MonoBehaviour
             //y軸を軸に左回りにrotationSpeed度回転
             transform.rotation = Quaternion.Euler(rotation_x, rotation_y, 0);
         }
+    }
+}
